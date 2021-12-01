@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'cocos2d-js-3.17.2-wwise' target in the 'cocos2d-js-3.17.2-wwise' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+#endif
