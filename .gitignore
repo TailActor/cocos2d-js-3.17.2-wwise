@@ -45,6 +45,8 @@ output.tar.gz
 
 **/runtime-src/proj.android/**/armeabi-v7a/**
 *.iml
+*.so
+*.apk
 
 # Windows
 **/runtime-src/proj.win32/Debug.win32/
@@ -58,10 +60,10 @@ output.tar.gz
 *.tlog
 *.lib
 *.dll
+*.pdb
 
 # iOS
 **/runtime-src/proj.ios_mac/Build/
 *.DS_Store
-**.dylib
-*.so
+*.dylib
 *.a
